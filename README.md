@@ -9,8 +9,9 @@
 Ferramenta profissional de automação e auditoria para carteiras [HelioWallet](https://heliowallet.com/). Este software realiza validação em lote de frases de recuperação (mnemonics) BIP39 e extração automatizada de saldos Solana (SOL) através de duas interfaces: uma interface gráfica moderna com WebView integrada ou automação via linha de comando.
 
 ---
-
-python automacao_solana_saldo.py frases.txt --show
+```bash
+uv run automacao_solana_saldo.py frases.txt --show
+```
 
 ## 📋 Sumário
 
